@@ -10,6 +10,4 @@ import { FaTshirt } from "react-icons/fa";
 import { FaMoneyBillAlt } from "react-icons/fa";
 import { FaApple } from "react-icons/fa";
 
-
-
 export const componentsMap = [ FaBiking, FaBowlingBall, FaSnapchatGhost, FaBabyCarriage, FaBaby, FaEgg, FaHorse, FaSmileBeam, FaTshirt, FaMoneyBillAlt, FaApple ];

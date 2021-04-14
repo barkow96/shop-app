@@ -131,16 +131,12 @@ const deleteProduct = (id,qnt) => {
 };
 
 useEffect(() => {
-  console.log("APP");
-
   for (const bask of basket) {
     if (bask.quantity>0) { setShowBasketLogo(true); break; }
     setShowBasketLogo(false);
     
   };
   if (showBasketLogo===false) setShowBasket(false);
-
-  console.log(showBasketLogo);
 }, [showBasketLogo, basket]);
 
   return (

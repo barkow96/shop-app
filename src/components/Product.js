@@ -1,6 +1,5 @@
 import Image from "./Image.js";
 import Description from "./Description.js";
-import { useEffect } from "react";
 
 const Product = ( { art, addToBasket } ) => {
     const size = 150;
@@ -11,12 +10,7 @@ const Product = ( { art, addToBasket } ) => {
     const artQuantity = art.quantity;
     const color = art.color;
 
-    const product_none = artQuantity==0 ? {color: "red"} : {};
-
-    useEffect(() => {
-        console.log("PRODUCT");
-    });
-
+    const product_none = artQuantity===0 ? {color: "red"} : {};
 
     return(
         <div className='product' style={product_none}>
@@ -31,7 +25,6 @@ const Product = ( { art, addToBasket } ) => {
                 addToBasket={addToBasket}
                 color={color}/>
         </div>
-
     );
 }
 
