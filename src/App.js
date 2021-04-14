@@ -11,7 +11,7 @@ const [products, setProducts] = useState([
     type: 'FaBiking',
     description: 'Rower szybki',
     price: 4499,
-    quantity: 57,
+    quantity: 5,
     color: "pink"
   },
   {
@@ -19,13 +19,13 @@ const [products, setProducts] = useState([
     type: 'FaBiking',
     description: 'Rower wolny',
     price: 2499,
-    quantity: 3,
+    quantity: 13,
     color: "brown"
   },
   {
     id: 3,
     type: 'FaBowlingBall',
-    description: 'Kula do kręgli - z dziurami',
+    description: 'Dziurawa kula do kręgli',
     price: 150,
     quantity: 1,
     color: "black"
@@ -41,7 +41,7 @@ const [products, setProducts] = useState([
   {
     id: 5,
     type: 'FaBabyCarriage',
-    description: 'Szybki wózek Madki',
+    description: 'Wózek 2-śladowy',
     price: 500,
     quantity: 5,
     color: "red"
@@ -49,15 +49,15 @@ const [products, setProducts] = useState([
   {
     id: 6,
     type: 'FaBaby',
-    description: 'Nieużywany bombelek',
+    description: 'Sztuczne dziecko',
     price: 20000,
-    quantity: 7,
+    quantity: 5,
     color: "yellow"
   },
   {
     id: 7,
     type: 'FaEgg',
-    description: 'Tuzin jaj Kachy',
+    description: 'Jajeczko',
     price: 25,
     quantity: 100,
     color: "yellow"
@@ -75,13 +75,13 @@ const [products, setProducts] = useState([
     type: 'FaSmileBeam',
     description: 'Dobry humor',
     price: 1000000,
-    quantity: 69,
+    quantity: 77,
     color: "yellow"
   },
   {
     id: 10,
     type: 'FaTshirt',
-    description: 'Wyprana unikatowa koszulka',
+    description: 'Koszulka uniwersalna',
     price: 20,
     quantity: 100,
     color: "gray"
@@ -97,9 +97,9 @@ const [products, setProducts] = useState([
   {
     id: 12,
     type: 'FaApple',
-    description: 'Japko',
-    price: 500,
-    quantity: 3,
+    description: 'Jabłko Adama',
+    price: 10000000,
+    quantity: 1,
     color: "red"
   }
 ]);
